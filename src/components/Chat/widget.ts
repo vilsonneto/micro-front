@@ -8,7 +8,9 @@ declare global {
   }
 }
 
-// Adiciona a função render ao objeto global
+// Expondo a função globalmente
 window.MyWidget = {
   render: (containerId: string) => renderWidget(containerId),
 };
+
+console.log("Widget carregado com sucesso");
