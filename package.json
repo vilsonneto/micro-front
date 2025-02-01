@@ -7,12 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:widget": "npx esbuild ./src/components/Widget.tsx --outfile=public/widget.js --bundle --minify --format=iife --global-name=MyWidget --external:react --external:react-dom"
+    "build:widget": "npx esbuild ./src/components/Widget.tsx --outfile=public/widget.js --bundle --minify --format=iife --global-name=MyWidget"
   },
   "dependencies": {
     "next": "15.1.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
