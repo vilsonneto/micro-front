@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:widget": "npx esbuild ./src/components/Widget.tsx --outfile=public/widget.js --bundle --minify --format=iife --global-name=MyWidget"
+    "build:widget": "npx esbuild ./src/components/Widget.tsx --outfile=public/widget.js --bundle --minify --format=iife --global-name=MyWidget --external:react --external:react-dom --external:react-dom/client"
   },
   "dependencies": {
     "next": "15.1.6",
