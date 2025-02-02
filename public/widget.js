@@ -1,6 +1,6 @@
 (function () {
   const iframe = document.createElement("iframe");
-  iframe.src = "https://seusite.com/chat-widget";
+  iframe.src = "https://micro-front-sable.vercel.app/chat-widget";
   iframe.style.position = "fixed";
   iframe.style.bottom = "20px";
   iframe.style.right = "20px";
